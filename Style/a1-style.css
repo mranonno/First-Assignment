@@ -1,0 +1,29 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Merriweather', sans-serif; */
+/* Banner Section style */
+header {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner/Banner\ Image.png');
+    margin: 50px 140px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.banner-title {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.banner-title1 {
+    padding-top: 177px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title2 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 177px;
+}
