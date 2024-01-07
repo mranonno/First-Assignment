@@ -3,10 +3,10 @@
 /* Banner Section style */
 header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner/Banner\ Image.png');
-    margin: 50px 140px;
+    margin: 50px 140px 0px 140px;
+    border-radius: 16px;
     width: 1320px;
     height: 600px;
-    border-radius: 16px;
 }
 
 .banner-title {
@@ -16,7 +16,7 @@ header {
 }
 
 .banner-title1 {
-    padding-top: 177px;
+    padding: 150px 530px 0px 530px;
     font-size: 32px;
     font-weight: 400;
 }
@@ -25,43 +25,81 @@ header {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    padding-bottom: 177px;
 }
 
 /* Happy Newyear section */
 .new-year {
     font-family: 'Inter', sans-serif;
-    text-align: center;
+    margin-top: 120px;
 }
 
 .discount {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
+    margin: 48px 608px;
 }
 
 .holiday {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin: 0px 602px;
 }
 
 .category {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    margin: 16px 595px;
 }
 
 .ny-img {
-    width: 802.9px;
+    width: 802px;
     height: 500px;
+    margin-left: 399px;
 }
+
 /* wlc patry section */
+.wlc-party {
+    margin: 120px 140px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.mid-night {
+    color: #FFF;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+    width: 642px;
+    padding: 110px 552px 0px 126px;
+}
+
+.wlc-des {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 497px 0 126px
+}
+.join-btn{
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+background: none;
+padding-left: 126px;
+border: none;
+}
 
 
-
-
-
-footer{
+footer {
     background-color: #070211;
 }
