@@ -27,3 +27,41 @@ header {
     line-height: 95px;
     padding-bottom: 177px;
 }
+
+/* Happy Newyear section */
+.new-year {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.discount {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holiday {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.category {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ny-img {
+    width: 802.9px;
+    height: 500px;
+}
+/* wlc patry section */
+
+
+
+
+
+footer{
+    background-color: #070211;
+}
