@@ -89,16 +89,49 @@ header {
     line-height: 30px;
     padding: 0 497px 0 126px
 }
-.join-btn{
-color: #FFF;
-text-align: center;
-font-family: 'Inter', sans-serif;
-font-size: 20px;
-background: none;
-padding-left: 126px;
-border: none;
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background: none;
+    padding-left: 126px;
+    border: none;
 }
 
+.join-now {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 140px;
+    border-radius: 16px;
+}
+
+.join-des {
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+}
+
+.place,
+span,
+time {
+    color: #FF0000;
+}
+
+.now-btn {
+    background: #FF0000;
+    color: #FFF;
+    padding: 16px 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 126px;
+    margin-top: 48px;
+    border: none;
+}
 
 footer {
     background-color: #070211;
