@@ -72,10 +72,12 @@ header {
     border-radius: 16px;
     background-repeat: no-repeat;
 }
-.wlc-container{
+
+.wlc-container {
     display: flex;
     padding: 80px 126px;
 }
+
 .mid-night {
     color: #FFF;
     font-family: 'Merriweather', sans-serif;
@@ -237,39 +239,45 @@ time {
 }
 
 .holiday-image {
-display: flex;
-justify-content: space-between;
-margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-.h-right{
+
+.h-right {
     position: relative;
     flex: 1;
     display: flex;
     justify-content: end;
 }
-.box-dis{
+
+.box-dis {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-.holiday-container{
+
+.holiday-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.discountvv{
+
+.discountvv {
     position: absolute;
     left: 70px;
     top: 75px;
 }
-.box{
-width: 430px;
-height: 430px;
-flex: 1;
-margin-bottom: -350px;
-margin-left: 150px;
-z-index: 30;
+
+.box {
+    width: 430px;
+    height: 430px;
+    flex: 1;
+    margin-bottom: -350px;
+    margin-left: 150px;
+    z-index: 30;
 }
+
 /* portfolio section */
 
 .portfolio {
@@ -339,10 +347,10 @@ z-index: 30;
 }
 
 .input-section {
-    width: 648px;
     max-width: 100%;
     position: relative;
-    margin: 40px 336px;
+    margin: 40px 300px;
+
 }
 
 .input-section input {
@@ -369,20 +377,33 @@ z-index: 30;
     border: none;
     height: 100%;
     position: absolute;
-    right: -30px;
     top: 0;
+    right: -29px;
     bottom: 0;
 }
 
 footer {
     background-color: #070211;
     color: white;
+    height: 609px;
+}
+
+.footer-container {
+    width: 1320px;
+    margin-left: 140px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: none;
+
 }
 
 .foot-top {
     display: flex;
     justify-content: space-between;
-    padding: 120px 140px;
+    padding: 50px;
 }
 
 .top-left {
@@ -406,24 +427,49 @@ footer {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin: 48px;
 }
 
 .foot-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 120px 140px;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     align-items: center;
+    padding: 30px;
 }
-.foot-bottom button{
-    color: #FFF;
 
-font-family: 'Inter', sans-serif;
-font-size: 24px;
-font-weight: 500;
-border: none;
-background-color: transparent;
+.foot-bottom button {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
+
+/* hover effect */
+.image-container img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.input-section button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.now-btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.join-btn:hover {
+    cursor: pointer;
+}
+
+.foot-bottom button:hover {
+    cursor: pointer;
 }
