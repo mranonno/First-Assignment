@@ -1,11 +1,14 @@
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Merriweather', sans-serif; */
 /* Banner Section style */
+body {
+    width: 1600px;
+}
+
 header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner/Banner\ Image.png');
     margin: 50px 140px 0px 140px;
     border-radius: 16px;
-    width: 1320px;
     height: 600px;
 }
 
@@ -64,7 +67,6 @@ header {
 .wlc-party {
     margin: 120px 140px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner/Vectorrr.png');
-    width: 1320px;
     height: 600px;
     border-radius: 16px;
 }
@@ -103,7 +105,6 @@ header {
 /* Join now section */
 
 .join-now {
-    width: 1320px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 120px 140px;
@@ -139,7 +140,6 @@ time {
 .comming-soon {
     display: flex;
     margin: 120px 140px 0 140px;
-    width: 1320px;
     height: 733px;
     justify-content: space-around;
     gap: 50px;
@@ -202,7 +202,6 @@ time {
 
 /* Holiday sale section */
 .holiday-sale {
-    width: 1320px;
     margin: 120px 140px 0 140px;
 }
 
@@ -238,7 +237,6 @@ time {
 
 .holiday-image {
     height: 662px;
-    width: 1320px;
     background: url('../resources/Others/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -256,7 +254,6 @@ time {
 /* portfolio section */
 
 .portfolio {
-    width: 1320px;
     margin: 120px 140px;
 }
 
@@ -290,12 +287,71 @@ time {
 .image-container div {
     display: flex;
     gap: 24px;
-    margin-top: 2px;
+    margin-top: 24px;
 }
 
 /* newsletter section */
+.subscribe {
+    height: 616px;
+    margin: 120px 140px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
 
+.sub-container {
+    padding: 40px;
+}
 
+.subscribe div h3 {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 212px;
+}
+.input-section{
+    width: 648px;
+    max-width: 100%;
+    position: relative;
+    margin: 80px 336px;
+}
+.input-section input {
+background: #FFF;
+color: rgba(7, 2, 17, 0.30);
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+padding: 25px 0 25px 30px;
+width: 100%;
+border-radius: 50px;
+border: none;
+}
+
+.input-section button{
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    height: 100%;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    bottom: 0;
+}
 
 . footer {
     background-color: #070211;
