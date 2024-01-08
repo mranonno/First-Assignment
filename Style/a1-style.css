@@ -2,7 +2,7 @@
 /* font-family: 'Merriweather', sans-serif; */
 /* Banner Section style */
 header {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner/Banner\ Image.png);
     margin: 50px 140px 0px 140px;
     border-radius: 16px;
     width: 1320px;
@@ -63,7 +63,7 @@ header {
 /* wlc patry section */
 .wlc-party {
     margin: 120px 140px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner/Vectorrr.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
