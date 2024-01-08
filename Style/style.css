@@ -3,6 +3,7 @@
 /* Banner Section style */
 body {
     width: 1600px;
+    margin: 0 auto;
 }
 
 header {
@@ -65,12 +66,16 @@ header {
 
 /* wlc patry section */
 .wlc-party {
-    margin: 120px 140px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner/Vectorrr.png');
+    margin: 120px 140px;
     height: 600px;
     border-radius: 16px;
+    background-repeat: no-repeat;
 }
-
+.wlc-container{
+    display: flex;
+    padding: 80px 126px;
+}
 .mid-night {
     color: #FFF;
     font-family: 'Merriweather', sans-serif;
@@ -79,17 +84,14 @@ header {
     line-height: 88px;
     letter-spacing: 7px;
     width: 642px;
-    padding: 110px 552px 0px 126px;
 }
 
 .wlc-des {
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter', sans-serif;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 497px 0 126px
 }
 
 .join-btn {
@@ -98,7 +100,6 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     background: none;
-    padding-left: 126px;
     border: none;
 }
 
@@ -236,21 +237,39 @@ time {
 }
 
 .holiday-image {
-    height: 662px;
-    background: url('../resources/Others/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
 }
-
-.hd-rectangular {
-    background-repeat: no-repeat;
-    background-position: top right;
+.h-right{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: end;
 }
-
-.h-right {
-    text-align: right;
+.box-dis{
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
-
+.holiday-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discountvv{
+    position: absolute;
+    left: 70px;
+    top: 75px;
+}
+.box{
+width: 430px;
+height: 430px;
+flex: 1;
+margin-bottom: -350px;
+margin-left: 150px;
+z-index: 30;
+}
 /* portfolio section */
 
 .portfolio {
@@ -318,25 +337,27 @@ time {
     line-height: 32px;
     margin: 0 212px;
 }
-.input-section{
+
+.input-section {
     width: 648px;
     max-width: 100%;
     position: relative;
-    margin: 80px 336px;
-}
-.input-section input {
-background: #FFF;
-color: rgba(7, 2, 17, 0.30);
-font-family: 'Inter', sans-serif;
-font-size: 18px;
-font-weight: 400;
-padding: 25px 0 25px 30px;
-width: 100%;
-border-radius: 50px;
-border: none;
+    margin: 40px 336px;
 }
 
-.input-section button{
+.input-section input {
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0 25px 30px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+
+.input-section button {
     padding: 24px 56px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -353,6 +374,56 @@ border: none;
     bottom: 0;
 }
 
-. footer {
+footer {
     background-color: #070211;
+    color: white;
+}
+
+.foot-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+
+.top-left {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.top-right {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: inline;
+}
+
+.foot-mid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foot-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+}
+.foot-bottom button{
+    color: #FFF;
+
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+border: none;
+background-color: transparent;
 }
